@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+/*=========NAVBAR========*/
+.navbar{
+	position: fixed;
+	width:100%;
+	/*background: crimson;*/
+	
+	font-family:'Ubuntu', sans-serif;
+	padding: 10px 0;
+	transition: all 0.3s ease;
+}
+.navbar .sticky{
+	background: crimson;
+	padding: 10px 0;
+}   /****I CANT FIX***/
+
+
+.navbar .logo a{
+	color:#fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .menu li a{ /*includes the spaces of navbar menu*/
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left:25px; 
+	transition: 0.3s ease;
+}
+.navbar .menu li a:hover{
+	color: crimson;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+/*===HOME======*/
+.home{ /*text has been centered*/
+	display: flex;
+	background: url("cover2.jpg") no-repeat center;
+/*	background-color: black;*/
+	background-size: cover;
+
+	height: 10vh;
+	color:#6c6eff;
+	min-height: 500px;
+	font-family:'Ubuntu', sans-serif;
+}
+.home .max-width{ /* text aligned into the left side part*/
+	margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+	font-size: 27px;
+}
+.home .home-content .text-2{
+	font-size: 75px;
+	font-weight: 600;
+	margin-left: -3px;
+}
+.home .home-content .text-3{
+	font-size: 40px;
+	margin: 5px 0;
+}
+.home .home-content .text-3 span{
+	color:crimson;
+	font-weight:500;
+}
+
+/*13:37 TO BE CONTINUED.....*/;
